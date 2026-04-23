@@ -121,6 +121,7 @@ export default {
     regulationStyle: 'Estilo de Regulación',
     forms:           'Formas',
     pricePerDose:    'Precio por Dosis',
+    doseLabel:       'dosis',
     healthToll:      'Impacto en la Salud',
     regulation: {
       monopoly:      'Monopolio Criminal',
