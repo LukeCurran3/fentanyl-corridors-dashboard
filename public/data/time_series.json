@@ -1,0 +1,90 @@
+{
+  "mexico_national_fentanyl_seizures_kg": {
+    "source": "SEDENA / Secretaría de Marina, as cited in InSight Crime report p.15",
+    "data": [
+      {"year": 2013, "kg": 454},
+      {"year": 2014, "kg": 0},
+      {"year": 2015, "kg": 16},
+      {"year": 2016, "kg": 11},
+      {"year": 2017, "kg": 102},
+      {"year": 2018, "kg": 300},
+      {"year": 2019, "kg": 197},
+      {"year": 2020, "kg": 340},
+      {"year": 2021, "kg": 984},
+      {"year": 2022, "kg": 1174},
+      {"year": 2023, "kg": 1499},
+      {"year": 2024, "kg": 2838}
+    ]
+  },
+  "cbp_us_fentanyl_seizures_lbs": {
+    "source": "CBP Drug Seizure Statistics / WOLA analysis",
+    "note": "Fiscal years (Oct-Sep). 96% of seizures in CA and AZ in FY2025.",
+    "data": [
+      {"fiscal_year": 2019, "lbs": 2804},
+      {"fiscal_year": 2020, "lbs": 4791},
+      {"fiscal_year": 2021, "lbs": 11201},
+      {"fiscal_year": 2022, "lbs": 14700},
+      {"fiscal_year": 2023, "lbs": 26700},
+      {"fiscal_year": 2024, "lbs": 21100},
+      {"fiscal_year": 2025, "lbs": 11486}
+    ]
+  },
+  "sisvea_fentanyl_treatment_mentions": {
+    "source": "SISVEA / CONASAMA, as cited in InSight Crime report p.17-18",
+    "note": "Patients reporting fentanyl use at least once while seeking treatment. ~80% in Baja California, Sonora, Chihuahua.",
+    "data": [
+      {"year": 2016, "count": 2},
+      {"year": 2017, "count": 5},
+      {"year": 2018, "count": 10},
+      {"year": 2019, "count": 25},
+      {"year": 2020, "count": 72},
+      {"year": 2021, "count": 184},
+      {"year": 2022, "count": 333},
+      {"year": 2023, "count": 922},
+      {"year": 2024, "count": 919}
+    ]
+  },
+  "us_overdose_deaths_synthetic_opioids": {
+    "source": "CDC WONDER / NCHS",
+    "note": "Deaths involving synthetic opioids other than methadone (primarily fentanyl). National figures.",
+    "data": [
+      {"year": 2015, "deaths": 9580},
+      {"year": 2016, "deaths": 19413},
+      {"year": 2017, "deaths": 28466},
+      {"year": 2018, "deaths": 31335},
+      {"year": 2019, "deaths": 36359},
+      {"year": 2020, "deaths": 56516},
+      {"year": 2021, "deaths": 70601},
+      {"year": 2022, "deaths": 73838},
+      {"year": 2023, "deaths": 72776},
+      {"year": 2024, "deaths": 48422}
+    ]
+  },
+  "tijuana_methadone_patients": {
+    "source": "Centros de Integración Juvenil (CIJ), as cited in InSight Crime report p.20",
+    "data": [
+      {"year": 2015, "patients": 251},
+      {"year": 2016, "patients": 375},
+      {"year": 2017, "patients": 332},
+      {"year": 2018, "patients": 337},
+      {"year": 2019, "patients": 290},
+      {"year": 2020, "patients": 182},
+      {"year": 2021, "patients": 136},
+      {"year": 2022, "patients": 150},
+      {"year": 2023, "patients": 130},
+      {"year": 2024, "patients": 98},
+      {"year": 2025, "patients": 50}
+    ]
+  },
+  "cbp_seizures_by_field_office_fentanyl_pct": {
+    "source": "CBP / WOLA analysis",
+    "note": "In FY2025, 96% of fentanyl seized at CA and AZ sectors. Approximate distribution.",
+    "data": {
+      "San Diego": {"pct_of_total": 45, "corridor": "Tijuana"},
+      "Tucson": {"pct_of_total": 40, "corridor": "Nogales"},
+      "El Centro": {"pct_of_total": 7, "corridor": "Mexicali"},
+      "El Paso": {"pct_of_total": 4, "corridor": "Ciudad Juárez"},
+      "Other": {"pct_of_total": 4, "corridor": null}
+    }
+  }
+}

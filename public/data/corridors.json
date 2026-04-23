@@ -1,0 +1,249 @@
+[
+  {
+    "id": "mexicali",
+    "name": "Mexicali",
+    "state": "Baja California",
+    "country": "MX",
+    "lat": 32.6245,
+    "lng": -115.4523,
+    "us_pair": {
+      "name": "Calexico / Imperial County",
+      "county": "Imperial County",
+      "state": "California",
+      "lat": 32.6789,
+      "lng": -115.4989,
+      "cbp_field_office": "El Centro"
+    },
+    "governance": {
+      "type": "monopoly",
+      "label": "Structured Criminal Monopoly",
+      "color": "#EF4444",
+      "groups": ["Los Rusos (Sinaloa Cartel faction)"],
+      "description": "Most regulated market on the border. City divided into gang-controlled territories, each running 'conectas' (sales points). Standardized doses, sealed packages with distinctive stamps, uniform prices citywide. M30 pills banned. Smoking pipes controlled by distributors."
+    },
+    "fentanyl_market": {
+      "status": "integrated",
+      "introduction_year": 2015,
+      "method": "Mixed with black tar heroin ('goma negra')",
+      "formats": ["Primarily fentanyl mixed with black tar heroin", "Pills largely prohibited"],
+      "price_per_dose_mxn": "50–60",
+      "price_per_dose_usd": "2.50–3.00",
+      "consumption_method": "primarily injection (smoking pipes restricted)",
+      "market_openness": "open but tightly regulated",
+      "regulation_description": "Highly structured criminal monopoly with strict rules on form, price, packaging, and distribution"
+    },
+    "card_content": {
+      "market_summary": "Fentanyl is fully integrated into the heroin market and is widely consumed as an additive. The market is highly organized, with standardized doses and strict cartel oversight.",
+      "toll_summary": "Overdose rates are significant, with paramedics reporting at least five overdose cases per week. Early introduction caused severe health impacts and ongoing overdose risks remain high.",
+      "key_insight": "Most regulated drug market on the border — standardized doses, sealed packages, uniform prices. Even smoking pipes are controlled."
+    },
+    "health_impact": {
+      "overdoses_per_week": 5,
+      "overdose_display": "5+ overdoses/week",
+      "semefo_fentanyl_positive_pct": 20,
+      "semefo_period": "June 2022 – May 2025",
+      "methadone_clinic_status": "closed since 2019",
+      "harm_reduction_orgs": ["Verter A.C."],
+      "has_harm_reduction": true,
+      "naloxone_available": true,
+      "fentanyl_test_strips_available": true,
+      "semefo_testing": true
+    }
+  },
+  {
+    "id": "tijuana",
+    "name": "Tijuana",
+    "state": "Baja California",
+    "country": "MX",
+    "lat": 32.5149,
+    "lng": -117.0382,
+    "us_pair": {
+      "name": "San Diego",
+      "county": "San Diego County",
+      "state": "California",
+      "lat": 32.7157,
+      "lng": -117.1611,
+      "cbp_field_office": "San Diego"
+    },
+    "governance": {
+      "type": "oligopoly",
+      "label": "Violent Criminal Oligopoly",
+      "color": "#F97316",
+      "groups": ["Los Chapitos (Sinaloa Cartel)", "Mayiza faction (Sinaloa Cartel)", "CJNG", "Arellano Félix Cartel (CAF)"],
+      "description": "Multiple factions divide the city into zones with invisible borders. Drug packages are sealed with distinctive colors per criminal group. Extremely violent — ~70% of homicides linked to drug market rule enforcement."
+    },
+    "fentanyl_market": {
+      "status": "integrated",
+      "introduction_year": 2015,
+      "method": "Covertly mixed with heroin as white powder",
+      "formats": ["White powder (main form)", "Mixed with heroin", "Counterfeit M30 pills", "Other powder variations"],
+      "price_per_dose_mxn": "50–60",
+      "price_per_dose_usd": "2.50–3.00",
+      "consumption_method": "smoking and injection",
+      "market_openness": "open",
+      "regulation_description": "Violent oligopoly with multiple competing groups, strict territorial control but more product variety"
+    },
+    "card_content": {
+      "market_summary": "Tijuana has a highly developed and diversified fentanyl market with multiple forms available. Competition between cartels creates both product variety and extreme violence.",
+      "toll_summary": "Overdose levels are severe, with around three overdoses per day reported. The fentanyl crisis has caused widespread deaths and ongoing public health strain.",
+      "key_insight": "~70% of homicides tied to drug market rules. Crossing invisible faction borders risks death."
+    },
+    "health_impact": {
+      "overdoses_per_day": 3,
+      "overdose_display": "~3 overdoses/day",
+      "semefo_fentanyl_positive_pct": 12,
+      "semefo_period": "March 2023 – May 2025",
+      "methadone_clinic_status": "operating (CIJ) — patients dropped 86% from 2016 to 2025",
+      "methadone_patients_2016": 332,
+      "methadone_patients_2025": 50,
+      "harm_reduction_orgs": ["Prevencasa A.C."],
+      "has_harm_reduction": true,
+      "naloxone_available": true,
+      "fentanyl_test_strips_available": true,
+      "semefo_testing": true
+    }
+  },
+  {
+    "id": "hermosillo",
+    "name": "Hermosillo",
+    "state": "Sonora",
+    "country": "MX",
+    "lat": 29.0729,
+    "lng": -110.9559,
+    "us_pair": null,
+    "governance": {
+      "type": "fragile_truce",
+      "label": "Fragile Criminal Truce",
+      "color": "#14B8A6",
+      "groups": ["Los Salazar", "Los Chapitos"],
+      "description": "Distribution controlled through 'plazas' in different neighborhoods. Standardized doses and sealed packages. Both factions maintained a 'pax narca' for decades — fentanyl and heroin restricted to avoid 'heating up the plaza'. Truce fractured in late 2024, increasing violence and disrupting fentanyl supply."
+    },
+    "fentanyl_market": {
+      "status": "restricted",
+      "introduction_year": 2022,
+      "method": "Initially as heroin adulterant ('China White'), then independent product",
+      "formats": ["Powder fentanyl", "Counterfeit M30 pills", "Heroin mixed with fentanyl ('China White' style)"],
+      "price_per_dose_mxn": "50–60",
+      "price_per_dose_usd": "2.50–3.00",
+      "consumption_method": "primarily injection (smoking pipes controlled by organized crime)",
+      "market_openness": "clandestine — closed networks connecting consumers to Sinaloa-based producers",
+      "regulation_description": "Discreet, tightly controlled market, historically restricted to avoid 'heating the plaza', recently more unstable due to cartel conflict"
+    },
+    "card_content": {
+      "market_summary": "Fentanyl in Hermosillo is low-profile and distributed through closed networks rather than open street markets. Availability is sporadic and shaped by cartel control and recent violence disrupting supply.",
+      "toll_summary": "Data is limited, but users report multiple overdose deaths within their networks. Hospitals report 2–3 fentanyl-related emergencies per month, indicating a smaller but still present health impact.",
+      "key_insight": "Decades-long 'pax narca' kept fentanyl underground. The truce shattered in late 2024."
+    },
+    "health_impact": {
+      "emergencies_per_month": "2–3",
+      "overdose_display": "2–3 emergencies/month",
+      "semefo_fentanyl_positive_pct": null,
+      "methadone_clinic_status": "closed since 2015",
+      "harm_reduction_orgs": [],
+      "has_harm_reduction": false,
+      "naloxone_available": false,
+      "fentanyl_test_strips_available": false,
+      "semefo_testing": false
+    }
+  },
+  {
+    "id": "nogales",
+    "name": "Nogales",
+    "state": "Sonora",
+    "country": "MX",
+    "lat": 31.3340,
+    "lng": -110.9460,
+    "us_pair": {
+      "name": "Nogales, AZ / Santa Cruz County",
+      "county": "Santa Cruz County",
+      "state": "Arizona",
+      "lat": 31.3404,
+      "lng": -110.9343,
+      "cbp_field_office": "Tucson"
+    },
+    "governance": {
+      "type": "duopoly",
+      "label": "Clandestine Market Under Criminal Duopoly",
+      "color": "#EAB308",
+      "groups": ["Los Salazar (west side)", "Sinaloa Cartel factions — Chapitos / Mayiza (east side)"],
+      "description": "Railroad tracks divide the city into two criminal zones. Salazar control meth on the west; Sinaloa factions control cocaine, marijuana, heroin, benzos on the east. Both factions restrict fentanyl sales — distributors who violate rules have been killed or disappeared. Fentanyl pushed to clandestine underground market."
+    },
+    "fentanyl_market": {
+      "status": "restricted",
+      "introduction_year": 2016,
+      "method": "Offered openly as M30 pills during heroin shortage",
+      "formats": ["Counterfeit M30 pills (smoked)", "Some powdered fentanyl"],
+      "price_per_dose_mxn": "50–60",
+      "price_per_dose_usd": "2.50–3.00",
+      "consumption_method": "smoking (pills) and injection",
+      "market_openness": "clandestine — small distributor networks with trusted consumers",
+      "regulation_description": "Highly restricted and clandestine, severe punishment (including death/disappearance) for unauthorized sales"
+    },
+    "card_content": {
+      "market_summary": "Fentanyl exists in a hidden, closed-network market due to strict cartel restrictions. Distribution occurs privately among trusted users rather than through open drug points.",
+      "toll_summary": "Users report knowing many overdose deaths, though official data is scarce due to the clandestine nature of the market. Hospitals handle 6–9 fentanyl-related emergencies per week, suggesting significant but underreported harm.",
+      "key_insight": "Railroad tracks split the city between two criminal empires. Wrong substance on the wrong side means disappearance."
+    },
+    "health_impact": {
+      "emergencies_per_week": "6–9",
+      "overdose_display": "6–9 emergencies/week",
+      "semefo_fentanyl_positive_pct": null,
+      "methadone_clinic_status": "closed since 2020",
+      "harm_reduction_orgs": [],
+      "has_harm_reduction": false,
+      "naloxone_available": false,
+      "fentanyl_test_strips_available": false,
+      "semefo_testing": false
+    }
+  },
+  {
+    "id": "juarez",
+    "name": "Ciudad Juárez",
+    "state": "Chihuahua",
+    "country": "MX",
+    "lat": 31.6904,
+    "lng": -106.4245,
+    "us_pair": {
+      "name": "El Paso",
+      "county": "El Paso County",
+      "state": "Texas",
+      "lat": 31.7619,
+      "lng": -106.4850,
+      "cbp_field_office": "El Paso"
+    },
+    "governance": {
+      "type": "prohibition",
+      "label": "Total Criminal Prohibition",
+      "color": "#3B82F6",
+      "groups": ["La Línea / La Empresa (Juárez Cartel factions)", "Barrio Azteca", "Mexicles / Artistas Asesinos (linked to Sinaloa)"],
+      "description": "City divided between Juárez Cartel remnants (heroin from Chihuahua sierra) and Sinaloa-linked gangs (cocaine, meth). Fentanyl actively prohibited by La Línea — selling it signals links to rival Sinaloa networks. Users and sellers threatened with death. Despite massive fentanyl trafficking through the Juárez-El Paso corridor to the U.S., the local market remains largely untouched."
+    },
+    "fentanyl_market": {
+      "status": "sporadic",
+      "introduction_year": 2022,
+      "method": "Sporadic — offered covertly by international traffickers, mixed with heroin or as M30 pills",
+      "formats": ["Rare: pills", "Occasionally mixed with heroin"],
+      "price_per_dose_mxn": "up to 200",
+      "price_per_dose_usd": "~10.00",
+      "consumption_method": "injection and smoking",
+      "market_openness": "effectively banned — admitting consumption carries lethal risk",
+      "regulation_description": "Near-total prohibition with active resistance and threats of violence for use/sale"
+    },
+    "card_content": {
+      "market_summary": "Fentanyl is not integrated into the local market and appears only sporadically. Strong cartel resistance has preserved heroin dominance and limited fentanyl spread.",
+      "toll_summary": "Fentanyl-related harm is lower but still present, including overdose cases and isolated deaths. A 2025 incident involving fentanyl-laced cocaine caused multiple deaths, showing ongoing risk despite restrictions.",
+      "key_insight": "Fentanyl is banned by local cartels despite massive trafficking through Juárez–El Paso. Price: $10/dose — 4× the border average."
+    },
+    "health_impact": {
+      "cocaine_fentanyl_deaths_may_2025": 5,
+      "overdose_display": "Sporadic — 5 deaths from laced cocaine (May 2025)",
+      "semefo_fentanyl_positive_pct": null,
+      "methadone_clinic_status": "unknown",
+      "harm_reduction_orgs": ["Programa Compañeros A.C."],
+      "has_harm_reduction": true,
+      "naloxone_available": true,
+      "fentanyl_test_strips_available": true,
+      "semefo_testing": false
+    }
+  }
+]

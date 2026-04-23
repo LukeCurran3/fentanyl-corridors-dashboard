@@ -1,0 +1,14 @@
+# Claude Code
+CLAUDE.md
+.claude/
+
+# Environment variables (Mapbox token)
+.env
+.env.local
+
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+.vercel
