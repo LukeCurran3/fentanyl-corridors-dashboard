@@ -147,22 +147,27 @@ export default {
 
   cityData: {
     mexicali: {
+      groups:           ['Los Rusos (facción del Cártel de Sinaloa)'],
       formats:          ['Principalmente fentanilo mezclado con heroína black tar', 'Pastillas en gran medida prohibidas'],
       overdose_display: '5+ sobredosis/semana',
     },
     tijuana: {
+      groups:           ['Los Chapitos (Cártel de Sinaloa)', 'Facción Mayiza (Cártel de Sinaloa)', 'CJNG', 'Cártel Arellano Félix (CAF)'],
       formats:          ['Polvo blanco (forma principal)', 'Mezclado con heroína', 'Pastillas M30 falsificadas', 'Otras variaciones en polvo'],
       overdose_display: '~3 sobredosis/día',
     },
     hermosillo: {
+      groups:           ['Los Salazar', 'Los Chapitos'],
       formats:          ['Fentanilo en polvo', 'Pastillas M30 falsificadas', "Heroína mezclada con fentanilo (estilo 'China White')"],
       overdose_display: '2–3 emergencias/mes',
     },
     nogales: {
+      groups:           ['Los Salazar (lado oeste)', 'Facciones del Cártel de Sinaloa — Chapitos / Mayiza (lado este)'],
       formats:          ['Pastillas M30 falsificadas (fumadas)', 'Algo de fentanilo en polvo'],
       overdose_display: '6–9 emergencias/semana',
     },
     juarez: {
+      groups:           ['La Línea / La Empresa (facciones del Cártel de Juárez)', 'Barrio Azteca', 'Mexicos / Artistas Asesinos (vinculados a Sinaloa)'],
       formats:          ['Poco frecuente: pastillas', 'Ocasionalmente mezclado con heroína'],
       overdose_display: 'Esporádico — 5 muertes por cocaína adulterada (mayo 2025)',
     },
