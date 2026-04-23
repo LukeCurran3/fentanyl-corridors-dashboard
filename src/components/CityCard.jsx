@@ -126,7 +126,7 @@ export default function CityCard({ cityData }) {
       {/* Row 4 — Price */}
       <BulletRow label={s.pricePerDose} govColor={govColor}>
         <span style={{ fontFamily: MONO, fontSize: 18, fontWeight: 600, color: 'white' }}>
-          ${fentanyl_market.price_per_dose_usd}/dose
+          ${fentanyl_market.price_per_dose_usd}/{s.doseLabel}
         </span>
       </BulletRow>
 
