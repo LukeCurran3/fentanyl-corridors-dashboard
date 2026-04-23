@@ -1,0 +1,98 @@
+[
+  {
+    "date": "2013",
+    "event": "Mexican criminal networks begin trafficking China-sourced fentanyl to the U.S.",
+    "category": "supply",
+    "impact": "high"
+  },
+  {
+    "date": "2015-2016",
+    "event": "Heroin distributors in Tijuana and Mexicali begin adulterating doses with fentanyl. Nogales dealers offer M30 pills during heroin shortage.",
+    "category": "market_introduction",
+    "impact": "high"
+  },
+  {
+    "date": "2018-2019",
+    "event": "Mexican criminal organizations establish large-scale fentanyl production, mainly from Sinaloa. Heroin trade collapses — opium prices crash.",
+    "category": "supply",
+    "impact": "high"
+  },
+  {
+    "date": "2019-2023",
+    "event": "National methadone shortage. Clinics close in Hermosillo (2015), Mexicali (2019), Nogales (2020). Patients pushed back to illicit market now contaminated with fentanyl.",
+    "category": "health",
+    "impact": "high"
+  },
+  {
+    "date": "2022",
+    "event": "Fentanyl consumption begins consolidating in Hermosillo. First contacts reported in Ciudad Juárez. SEMEFO Baja California begins testing cadavers for fentanyl in Mexicali.",
+    "category": "market_expansion",
+    "impact": "medium"
+  },
+  {
+    "date": "2023-05",
+    "event": "Chapitos faction reportedly orders halt to fentanyl production (unconfirmed). SISVEA adds illicit fentanyl reporting code.",
+    "category": "supply",
+    "impact": "medium"
+  },
+  {
+    "date": "2024",
+    "event": "Users in multiple markets report declining fentanyl purity in pills. Possible fentanyl-stimulant mixtures detected in treatment centers across all five cities.",
+    "category": "market_evolution",
+    "impact": "medium"
+  },
+  {
+    "date": "2024-07",
+    "event": "Ismael 'El Mayo' Zambada captured in the U.S. Triggers violent factional war within Sinaloa Cartel across Sinaloa, Baja California, and Sonora.",
+    "category": "disruption",
+    "impact": "high"
+  },
+  {
+    "date": "2024-10",
+    "event": "Claudia Sheinbaum inaugurated as president of Mexico. Signals greater openness to security cooperation with the U.S.",
+    "category": "policy",
+    "impact": "medium"
+  },
+  {
+    "date": "2024-11",
+    "event": "Largest fentanyl seizure in Mexican history — 20 million pills in Sinaloa (Ahome/Guasave).",
+    "category": "disruption",
+    "impact": "high"
+  },
+  {
+    "date": "2024-H2",
+    "event": "Salazar-Chapitos truce fractures in Hermosillo. Executions and disappearances of distributors and users increase. Fentanyl supply disrupted.",
+    "category": "disruption",
+    "impact": "medium"
+  },
+  {
+    "date": "2025-01",
+    "event": "Mexico transfers 37 prisoners to the U.S. including major cartel figures. Sheinbaum launches 'Aléjate de las Drogas' anti-fentanyl campaign.",
+    "category": "policy",
+    "impact": "medium"
+  },
+  {
+    "date": "2025-02",
+    "event": "CJNG leader killed by Mexican military. Trump designates 6 Mexican criminal organizations as terrorists, classifies fentanyl as WMD.",
+    "category": "disruption",
+    "impact": "high"
+  },
+  {
+    "date": "2025-05",
+    "event": "Five people die in Ciudad Juárez from cocaine laced with fentanyl — first major polysubstance incident in the city.",
+    "category": "health",
+    "impact": "medium"
+  },
+  {
+    "date": "2025-06",
+    "event": "Consumers in Nogales and Hermosillo report fentanyl scarcity — supply arrives in 'waves' with lower potency. Mexicali begins seeing similar pattern by late 2025.",
+    "category": "market_evolution",
+    "impact": "medium"
+  },
+  {
+    "date": "2025-H1",
+    "event": "U.S. fentanyl seizures at Mexico border drop 53% (Jan-June 2025 vs. 2024). U.S. overdose deaths fall ~27% in 2024 — largest annual decline ever recorded.",
+    "category": "outcome",
+    "impact": "high"
+  }
+]

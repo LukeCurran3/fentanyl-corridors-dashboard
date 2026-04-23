@@ -1,0 +1,61 @@
+{
+  "ports": [
+    { "id": "manzanillo",      "name": "Manzanillo",      "coordinates": [-104.32, 19.05] },
+    { "id": "lazaro-cardenas", "name": "Lazaro Cardenas", "coordinates": [-102.19, 17.96] }
+  ],
+  "production": [
+    { "id": "culiacan", "name": "Culiacan", "coordinates": [-107.39, 24.8] }
+  ],
+  "distributionArcs": [
+    {
+      "id": "sinaloa-hermosillo",
+      "from": [-107.39, 24.8],
+      "to":   [-110.96, 29.07],
+      "sourceColor": [249, 115, 22],
+      "targetColor": [20, 184, 166],
+      "width": 3.5,
+      "height": 0.30,
+      "visibleFromAct": 2
+    },
+    {
+      "id": "hermosillo-nogales",
+      "from": [-110.96, 29.07],
+      "to":   [-110.95, 31.33],
+      "sourceColor": [20, 184, 166],
+      "targetColor": [234, 179, 8],
+      "width": 2.5,
+      "height": 0.20,
+      "visibleFromAct": 3
+    },
+    {
+      "id": "hermosillo-mexicali",
+      "from": [-110.96, 29.07],
+      "to":   [-115.45, 32.62],
+      "sourceColor": [20, 184, 166],
+      "targetColor": [239, 68, 68],
+      "width": 3.0,
+      "height": 0.35,
+      "visibleFromAct": 4
+    },
+    {
+      "id": "mexicali-tijuana",
+      "from": [-115.45, 32.62],
+      "to":   [-117.04, 32.51],
+      "sourceColor": [239, 68, 68],
+      "targetColor": [249, 115, 22],
+      "width": 2.5,
+      "height": 0.12,
+      "visibleFromAct": 5
+    },
+    {
+      "id": "sinaloa-juarez",
+      "from": [-107.39, 24.8],
+      "to":   [-106.42, 31.69],
+      "sourceColor": [239, 68, 68],
+      "targetColor": [239, 68, 68],
+      "width": 2.5,
+      "height": 0.50,
+      "visibleFromAct": 7
+    }
+  ]
+}
