@@ -69,7 +69,8 @@ export default function CityCard({ cityData }) {
   const cityI18n = t.cityData[id] ?? {}
   const govColor   = governance.color
   const regulation = s.regulation[governance.type] || governance.type.replace('_', ' ')
-  const formats    = cityI18n.formats ?? fentanyl_market.formats
+  const groups     = cityI18n.groups   ?? governance.groups
+  const formats    = cityI18n.formats  ?? fentanyl_market.formats
   const overdose   = cityI18n.overdose_display ?? health_impact.overdose_display
 
   return (
@@ -100,7 +101,7 @@ export default function CityCard({ cityData }) {
       {/* Row 1 — Territory */}
       <BulletRow label={s.territory} govColor={govColor}>
         <div style={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
-          {governance.groups.map((g, i) => (
+          {groups.map((g, i) => (
             <span key={i} style={{ fontSize: 13, color: '#e2e8f0', lineHeight: 1.5 }}>{g}</span>
           ))}
         </div>
