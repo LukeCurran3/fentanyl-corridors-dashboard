@@ -75,11 +75,11 @@ export default {
 
   productionCard: {
     subheading:  'El Laboratorio',
-    body:        'A finales de los años 2010, las redes criminales, principalmente con base en Sinaloa, se convirtieron en los principales productores de fentanilo ilícito, estableciendo operaciones paralelas de producción y exportación.',
+    body:        'A finales de la década de 2010, algunas redes criminales en Sinaloa se convirtieron en las principales productoras y exportadoras de fentanilo ilícito.',
     seizedLabel: 'decomisado',
-    callout:     'Dic 2024: El mayor decomiso en la historia de México:',
+    callout:     'Diciembre de 2024: se decomisaron',
     calloutHigh: '20 millones de pastillas',
-    calloutEnd:  'en Sinaloa.',
+    calloutEnd:  'en Sinaloa, el mayor decomiso de la historia.',
   },
 
   easternRouteCard: {
@@ -95,9 +95,9 @@ export default {
   },
 
   borderCard: {
-    statDesc:   'del fentanilo producido cruza hacia Estados Unidos',
-    localNote:  'Solo ~10% permanece en los mercados locales',
-    chartLabel: 'Participación de Decomisos CBP por Corredor, AF2025',
+    statDesc:   'del fentanilo producido en México cruza hacia Estados Unidos',
+    localNote:  'Alrededor del 10% permanece en los mercados locales',
+    chartLabel: 'Decomisos de CBP por cruce fronterizo (año fiscal 2025)',
     footer:     'AF2025:',
     footerStat: '11,486 libras decomisadas en la frontera',
     footerEnd:  ', 46% menos que en 2024',
@@ -150,12 +150,12 @@ export default {
   cityData: {
     mexicali: {
       groups:           ['Los Rusos (facción del Cártel de Sinaloa)'],
-      formats:          ['Principalmente fentanilo mezclado con heroína black tar'],
+      formats:          ['Principalmente fentanilo mezclado con heroína de goma negra'],
       overdose_display: '5+ sobredosis/semana',
     },
     tijuana: {
       groups:           ['Chapitos (Cártel de Sinaloa)', 'Mayiza (Cártel de Sinaloa)', 'CJNG', 'Cártel Arellano Félix (CAF)'],
-      formats:          ['Polvo blanco (forma principal)', 'Mezclado con heroína', 'Pastillas M30 falsificadas', 'Otras variaciones en polvo'],
+      formats:          ['Fentanilo en polvo', 'Fentanilo mezclado con heroína', 'Pastillas M30'],
       overdose_display: '~3 sobredosis/día',
     },
     hermosillo: {
@@ -165,7 +165,7 @@ export default {
     },
     nogales: {
       groups:           ['Los Salazar (lado oeste)', 'Facciones del Cártel de Sinaloa: Chapitos / Mayiza (lado este)'],
-      formats:          ['Pastillas M30 falsificadas (fumadas)', 'Algo de fentanilo en polvo'],
+      formats:          ['Pastillas M30', 'Fentanilo en polvo'],
       overdose_display: '6–9 emergencias/semana',
     },
     juarez: {
