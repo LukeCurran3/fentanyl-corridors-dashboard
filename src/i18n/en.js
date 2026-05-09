@@ -63,14 +63,14 @@ export default {
   portsCard: {
     heading:    'Pacific Ports',
     subheading: 'The Entry Point',
-    body:       "Chinese precursor chemicals arrive at Mexico's Pacific ports, primarily",
+    body:       "Precursor chemicals arrive at Mexico's Pacific ports, primarily",
     portA:      'Lázaro Cárdenas (Michoacán)',
     portB:      'Manzanillo (Colima)',
     bodyEnd:    ', in commercial shipping containers.',
     keyLabel:   'Key substances: ',
     substances: '4-AP, 1-Boc-4-Piperidone, ANPP. First Mexican seizure of (2-Bromoethyl)Benzene:',
     seizureDate: 'November 2024.',
-    source:     'Source: DEA, CRS, InSight Crime',
+    source:     'Source: DEA, Congressional Research Service, InSight Crime',
   },
 
   productionCard: {
@@ -85,7 +85,8 @@ export default {
   easternRouteCard: {
     heading:     'The Eastern Route',
     subheading:  'Culiacán → Chihuahua → El Paso',
-    body:        'A second supply corridor runs east out of Sinaloa, crossing the Sierra Tarahumara into Chihuahua. Los Chapitos control the supply and transit; La Línea holds the destination, and strictly bans local fentanyl sales.',
+    body:        'A second supply corridor runs east out of Sinaloa, crossing the Sierra Tarahumara into Chihuahua. Los Chapitos control the supply and transit. La Línea holds the destination, and strictly bans local fentanyl sales.',
+    supplyGroup: 'Los Chapitos',
     supplyLabel: 'supply & transit',
     destLabel:   'destination control',
     callout:     "One of the world's busiest drug corridors,",

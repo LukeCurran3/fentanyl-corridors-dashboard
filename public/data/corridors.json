@@ -69,7 +69,7 @@
       "type": "oligopoly",
       "label": "Violent Criminal Oligopoly",
       "color": "#F97316",
-      "groups": ["Los Chapitos (Sinaloa Cartel)", "Mayiza faction (Sinaloa Cartel)", "CJNG", "Arellano Félix Cartel (CAF)"],
+      "groups": ["Chapitos (Sinaloa Cartel faction)", "Mayiza (Sinaloa Cartel faction)", "CJNG", "Arellano Félix Cartel (CAF)"],
       "description": "Multiple factions divide the city into zones with invisible borders. Drug packages are sealed with distinctive colors per criminal group. Extremely violent — ~70% of homicides linked to drug market rule enforcement."
     },
     "fentanyl_market": {

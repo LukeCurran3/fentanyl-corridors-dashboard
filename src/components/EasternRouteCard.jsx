@@ -46,7 +46,7 @@ export default function EasternRouteCard() {
       >
         <div style={{ textAlign: 'center', flex: 1 }}>
           <p style={{ fontFamily: MONO, fontSize: 14, color: 'white', fontWeight: 700, margin: '0 0 2px' }}>
-            Los Chapitos
+            {s.supplyGroup}
           </p>
           <p style={{ fontSize: 11, color: '#64748b', margin: 0, textTransform: 'uppercase', letterSpacing: '0.06em' }}>
             {s.supplyLabel}

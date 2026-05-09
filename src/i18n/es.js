@@ -63,14 +63,14 @@ export default {
   portsCard: {
     heading:     'Puertos del Pacífico',
     subheading:  'El Punto de Entrada',
-    body:        'Precursores químicos chinos llegan a los puertos del Pacífico de México, principalmente',
+    body:        'Precursores químicos llegan a los puertos del Pacífico de México, principalmente',
     portA:       'Lázaro Cárdenas (Michoacán)',
     portB:       'Manzanillo (Colima)',
     bodyEnd:     ', en contenedores de carga comercial.',
     keyLabel:    'Sustancias clave: ',
     substances:  '4-AP, 1-Boc-4-Piperidona, ANPP. Primer decomiso mexicano de (2-Bromoetil)Benceno:',
     seizureDate: 'noviembre de 2024.',
-    source:      'Fuente: DEA, CRS, InSight Crime',
+    source:      'Fuente: DEA, Congressional Research Service, InSight Crime',
   },
 
   productionCard: {
@@ -85,17 +85,18 @@ export default {
   easternRouteCard: {
     heading:     'La Ruta Oriental',
     subheading:  'Culiacán → Chihuahua → El Paso',
-    body:        'Un segundo corredor de suministro sale hacia el este de Sinaloa, cruzando la Sierra Tarahumara hacia Chihuahua. Los Chapitos controlan el suministro y el tránsito; La Línea controla el destino, y prohíbe estrictamente las ventas locales de fentanilo.',
+    body:        'Un segundo corredor de suministro sale hacia el este de Sinaloa, cruzando la Sierra Tarahumara hacia Chihuahua. Las facciones del Cartel de Sinaloa controlan el suministro y el tránsito; La Línea controla el destino, cruce fronterizo y prohíbe estrictamente las ventas locales de fentanilo.',
+    supplyGroup: 'Cartel de Sinaloa',
     supplyLabel: 'suministro y tránsito',
-    destLabel:   'control del destino',
-    callout:     'Uno de los corredores de droga más transitados del mundo,',
-    calloutHigh: 'sin embargo el fentanilo está prohibido',
-    calloutEnd:  'en el mercado local. Venderlo indica vínculos con rivales de Sinaloa.',
+    destLabel:   'control de cruce fronterizo',
+    callout:     'Juárez-El Paso es un corredor de drogas ampliamente transitado.',
+    calloutHigh: 'Sin embargo, el fentanilo está prohibido',
+    calloutEnd:  'en el mercado local en Ciudad Juárez. Para La Línea, venderlo indica vínculos con sus rivales del Cartel de Sinaloa.',
   },
 
   borderCard: {
     statDesc:   'del fentanilo producido cruza hacia Estados Unidos',
-    localNote:  'Solo ~10% permanece en los mercados locales de México',
+    localNote:  'Solo ~10% permanece en los mercados locales',
     chartLabel: 'Participación de Decomisos CBP por Corredor, AF2025',
     footer:     'AF2025:',
     footerStat: '11,486 libras decomisadas en la frontera',
@@ -105,11 +106,11 @@ export default {
   crisisCard: {
     statDesc:   'Muertes por opioides sintéticos en EE.UU. en 2024',
     highImpact: '⚡ ALTO IMPACTO',
-    heading:    'Pero en México, la crisis sigue siendo invisible',
+    heading:    'Pero en México la crisis sigue siendo invisible',
     points: [
       'La mayoría de los hospitales carecen de equipos para detectar fentanilo',
       'La escasez de metadona cerró clínicas en 3 de las 5 ciudades estudiadas',
-      "La naloxona está clasificada como 'psicotrópico', solo disponible en hospitales",
+      "La naloxona está clasificada como 'psicotrópico' y solo está disponible en hospitales",
       'La buprenorfina no puede recetarse para la adicción a opioides',
       'Las organizaciones de reducción de daños se financian casi en su totalidad con donantes extranjeros',
     ],
@@ -149,17 +150,17 @@ export default {
   cityData: {
     mexicali: {
       groups:           ['Los Rusos (facción del Cártel de Sinaloa)'],
-      formats:          ['Principalmente fentanilo mezclado con heroína black tar', 'Pastillas en gran medida prohibidas'],
+      formats:          ['Principalmente fentanilo mezclado con heroína black tar'],
       overdose_display: '5+ sobredosis/semana',
     },
     tijuana: {
-      groups:           ['Los Chapitos (Cártel de Sinaloa)', 'Facción Mayiza (Cártel de Sinaloa)', 'CJNG', 'Cártel Arellano Félix (CAF)'],
+      groups:           ['Chapitos (Cártel de Sinaloa)', 'Mayiza (Cártel de Sinaloa)', 'CJNG', 'Cártel Arellano Félix (CAF)'],
       formats:          ['Polvo blanco (forma principal)', 'Mezclado con heroína', 'Pastillas M30 falsificadas', 'Otras variaciones en polvo'],
       overdose_display: '~3 sobredosis/día',
     },
     hermosillo: {
       groups:           ['Los Salazar', 'Los Chapitos'],
-      formats:          ['Fentanilo en polvo', 'Pastillas M30 falsificadas', "Heroína mezclada con fentanilo (estilo 'China White')"],
+      formats:          ['Fentanilo en polvo', 'Pastillas M30', "Heroína mezclada con fentanilo (estilo 'China White')"],
       overdose_display: '2–3 emergencias/mes',
     },
     nogales: {
