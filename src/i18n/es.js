@@ -85,7 +85,7 @@ export default {
   easternRouteCard: {
     heading:     'La Ruta Oriental',
     subheading:  'Culiacán → Chihuahua → El Paso',
-    body:        'Un segundo corredor de suministro sale hacia el este de Sinaloa, cruzando la Sierra Tarahumara hacia Chihuahua. Las facciones del Cartel de Sinaloa controlan el suministro y el tránsito; La Línea controla el destino, cruce fronterizo y prohíbe estrictamente las ventas locales de fentanilo.',
+    body:        'Un segundo corredor de suministro sale hacia el este de Sinaloa, cruzando la Sierra Tarahumara hacia Chihuahua. Las facciones del Cartel de Sinaloa controlan el suministro y el tránsito; La Línea controla el destino cruce fronterizo y prohíbe estrictamente las ventas locales de fentanilo.',
     supplyGroup: 'Cartel de Sinaloa',
     supplyLabel: 'suministro y tránsito',
     destLabel:   'control de cruce fronterizo',
@@ -159,19 +159,19 @@ export default {
       overdose_display: '~3 sobredosis/día',
     },
     hermosillo: {
-      groups:           ['Los Salazar', 'Los Chapitos'],
+      groups:           ['Los Salazar', 'Chapitos (Cártel de Sinaloa)'],
       formats:          ['Fentanilo en polvo', 'Pastillas M30', "Heroína mezclada con fentanilo (estilo 'China White')"],
       overdose_display: '2–3 emergencias/mes',
     },
     nogales: {
-      groups:           ['Los Salazar (lado oeste)', 'Facciones del Cártel de Sinaloa — Chapitos / Mayiza (lado este)'],
+      groups:           ['Los Salazar (lado oeste)', 'Facciones del Cártel de Sinaloa: Chapitos / Mayiza (lado este)'],
       formats:          ['Pastillas M30 falsificadas (fumadas)', 'Algo de fentanilo en polvo'],
       overdose_display: '6–9 emergencias/semana',
     },
     juarez: {
       groups:           ['La Línea / La Empresa (facciones del Cártel de Juárez)', 'Barrio Azteca', 'Mexicos / Artistas Asesinos (vinculados a Sinaloa)'],
-      formats:          ['Poco frecuente: pastillas', 'Ocasionalmente mezclado con heroína'],
-      overdose_display: 'Esporádico — 5 muertes por cocaína adulterada (mayo 2025)',
+      formats:          ['Poco frecuente: pastillas', 'Fentanilo ocasionalmente mezclado con heroína'],
+      overdose_display: 'Esporádico: 5 muertes por cocaína adulterada (mayo 2025)',
     },
   },
 }

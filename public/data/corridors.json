@@ -115,7 +115,7 @@
       "type": "fragile_truce",
       "label": "Fragile Criminal Truce",
       "color": "#14B8A6",
-      "groups": ["Los Salazar", "Los Chapitos"],
+      "groups": ["Los Salazar", "Chapitos (Sinaloa Cartel faction)"],
       "description": "Distribution controlled through 'plazas' in different neighborhoods. Standardized doses and sealed packages. Both factions maintained a 'pax narca' for decades — fentanyl and heroin restricted to avoid 'heating up the plaza'. Truce fractured in late 2024, increasing violence and disrupting fentanyl supply."
     },
     "fentanyl_market": {
@@ -165,7 +165,7 @@
       "type": "duopoly",
       "label": "Clandestine Market Under Criminal Duopoly",
       "color": "#EAB308",
-      "groups": ["Los Salazar (west side)", "Sinaloa Cartel factions — Chapitos / Mayiza (east side)"],
+      "groups": ["Los Salazar (west side)", "Sinaloa Cartel factions: Chapitos / Mayiza (east side)"],
       "description": "Railroad tracks divide the city into two criminal zones. Salazar control meth on the west; Sinaloa factions control cocaine, marijuana, heroin, benzos on the east. Both factions restrict fentanyl sales — distributors who violate rules have been killed or disappeared. Fentanyl pushed to clandestine underground market."
     },
     "fentanyl_market": {
@@ -236,7 +236,7 @@
     },
     "health_impact": {
       "cocaine_fentanyl_deaths_may_2025": 5,
-      "overdose_display": "Sporadic — 5 deaths from laced cocaine (May 2025)",
+      "overdose_display": "Sporadic: 5 deaths from laced cocaine (May 2025)",
       "semefo_fentanyl_positive_pct": null,
       "methadone_clinic_status": "unknown",
       "harm_reduction_orgs": ["Programa Compañeros A.C."],

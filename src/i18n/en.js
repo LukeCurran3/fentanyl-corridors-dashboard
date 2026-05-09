@@ -85,7 +85,7 @@ export default {
   easternRouteCard: {
     heading:     'The Eastern Route',
     subheading:  'Culiacán → Chihuahua → El Paso',
-    body:        'A second supply corridor runs east out of Sinaloa, crossing the Sierra Tarahumara into Chihuahua. Los Chapitos control the supply and transit. La Línea holds the destination, and strictly bans local fentanyl sales.',
+    body:        'A second supply corridor runs east out of Sinaloa, crossing the Sierra Tarahumara into Chihuahua. Los Chapitos control the supply and transit. La Línea holds the destination and strictly bans local fentanyl sales.',
     supplyGroup: 'Los Chapitos',
     supplyLabel: 'supply & transit',
     destLabel:   'destination control',
@@ -165,8 +165,8 @@ export default {
       overdose_display: '6–9 emergencies/week',
     },
     juarez: {
-      formats:          ['Rare: pills', 'Occasionally mixed with heroin'],
-      overdose_display: 'Sporadic — 5 deaths from laced cocaine (May 2025)',
+      formats:          ['Rare: pills', 'Fentanyl occasionally mixed with heroin'],
+      overdose_display: 'Sporadic: 5 deaths from laced cocaine (May 2025)',
     },
   },
 }
