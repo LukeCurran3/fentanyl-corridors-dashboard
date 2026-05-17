@@ -16,7 +16,7 @@ export default {
     label:      'InSight Crime',
     title:      'Fentanyl Corridors',
     subtitle:   'How Criminal Governance Shapes Drug Markets in Northern Mexico',
-    supplement: 'Supplementary visualization for "Reglas locales, lecciones globales" (March 2026)',
+    supplement: 'Supplementary visualization for "Local Rules, Global Lessons" (March 2026)',
     cta:        'PRESS PLAY OR SPACE TO BEGIN',
   },
 
